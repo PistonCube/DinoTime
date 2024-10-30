@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 1.5em;
+    color: #bbb;
+    margin-top: 10px;
+}
+.buttons {
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.donate {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.8em;
+    color: #666;
+}
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
